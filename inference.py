@@ -5,8 +5,8 @@ import os
 from basicsr.archs.rrdbnet_arch import RRDBNet
 from basicsr.utils.download_util import load_file_from_url
 
-from realesrgan import RealESRGANer
-from realesrgan.archs.srvgg_arch import SRVGGNetCompact
+from RealESRGAN.realesrgan import RealESRGANer
+from RealESRGAN.realesrgan.archs.srvgg_arch import SRVGGNetCompact
 
 
 class RealesrganInference():
